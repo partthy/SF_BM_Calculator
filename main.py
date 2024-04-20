@@ -24,7 +24,7 @@ try:
         previous_y2 = float(y2)  # Update the y-coordinate of the end point of the previous element for the next iteration
 
 except Exception as e:
-    st.error(f"Continue to add coordinates to Element {2} to avoid {e}")
+    st.error(f"Continue to add coordinates to Element 2 to avoid {e}")
 
 # Sidebar title for supports
 st.sidebar.subheader('Add Supports')
